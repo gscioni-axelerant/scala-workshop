@@ -1,0 +1,6 @@
+/target/
+/project/target/
+/.idea/
+/project/project/target/
+/.bsp/
+/.bsp/sbt.json
