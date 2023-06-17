@@ -27,6 +27,7 @@ class adtsTest extends AnyFunSuiteLike {
 
     assert(napoli.size == Medium)
     assert(rossini.topping == Eggs)
+    assert(rossini.size == Small)
 
   }
 }
