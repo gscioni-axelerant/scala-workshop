@@ -8,4 +8,7 @@ class esempio2Test extends AnyFunSuite:
     assert(numAsString(3) == "odd")
     assert(numAsString(399) == "too big")
 
+    assert(numAsString2(3) == "odd")
+    assert(numAsString2(399) == "too big")
+
   }

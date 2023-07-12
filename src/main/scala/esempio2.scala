@@ -19,6 +19,15 @@ val numAsString = (i: Int) =>
     case 2 | 4 | 6 | 8 | 10 => "even"
     case _                  => "too big"
 
+
+val numAsString2 = (i: Int) =>
+  i match
+    case x if (x % 2 !=0 && x <= 10)  => "odd"
+    case x if (x % 2 ==0 && x <= 10) => "even"
+    case _                  => "too big"
+
+
+
 //metodo (di solito si dichiara all'interno di una classe
 //ma sembra che in Scala 3 si possa anche dichiarare di fuori
 //il comportamento in questo caso è equivalente ad una funzione)
