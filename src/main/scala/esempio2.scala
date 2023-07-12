@@ -23,8 +23,8 @@ val numAsString = (i: Int) =>
 val numAsString2 = (i: Int) =>
   i match
     case x if (x % 2 !=0 && x <= 10)  => "odd"
-    case x if (x % 2 ==0 && x <= 10) => "even"
-    case _                  => "too big"
+    case x if (x % 2 ==0 && x <= 10)  => "even"
+    case _                            => "too big"
 
 
 
