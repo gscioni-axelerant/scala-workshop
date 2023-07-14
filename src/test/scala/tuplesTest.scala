@@ -1,14 +1,15 @@
 package com.axelerant
 
+import com.axelerant.tuples.{bento, getAge}
 import org.scalatest.funsuite.AnyFunSuiteLike
 
 class tuplesTest extends AnyFunSuiteLike {
 
   test("tuples") {
-    val t1 = tuples.bento._1
-    val (first, second) = tuples.bento
+    val t1 = bento._1
+    val (first, second) = bento
     assert(t1 == first)
 
-    assert(tuples.getAge == 17)
+    assert(getAge == 17)
   }
 }

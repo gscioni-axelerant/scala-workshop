@@ -1,5 +1,6 @@
 package com.axelerant
 
+import com.axelerant.esempio1.{double, doubleWithMap}
 import org.scalatest.funsuite.AnyFunSuite
 
 class esempio1Test extends AnyFunSuite:
@@ -7,10 +8,10 @@ class esempio1Test extends AnyFunSuite:
   // test 1
   test("double raddoppia gli elementi") {
     val input = List(1, 2, 3)
-    val result = esempio1.double(input)
+    val result = double(input)
     assert(result == List(2, 4, 6))
 
-    val resultWithMap = esempio1.doubleWithMap(input)
+    val resultWithMap = doubleWithMap(input)
     assert(resultWithMap == List(2, 4, 6))
   }
 
